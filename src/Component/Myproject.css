@@ -1,0 +1,29 @@
+.myproject > img {
+    width: 300px;
+    height: 150px;
+    border-radius: 3px;
+}
+.myproject {
+    margin: 20px 85px;
+    width: 300px;
+    height: 150px;
+    transition: transform 100ms ease-in;
+}
+.myproject:hover{
+    color: white;
+    background-color: orangered;
+    transform: scale(1.05);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.myproject--content {
+    padding: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.myproject--content >p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}

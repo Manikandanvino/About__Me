@@ -1,0 +1,41 @@
+.contact{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.95);
+}
+
+.contact--container{
+    margin: 50px 100px;
+    border: 1px solid white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.contact--container > p {
+    font-size: 14px;
+    padding: 5px;
+}
+.contact--icon > a{
+    margin: 40px;
+} 
+
+.contact--icon{
+    margin-top: 20px;
+}
+.linkedin-icon{
+    color: rgb(97, 97, 218);
+}
+.insta-icon{
+     color: rgb(226, 23, 107)
+}
+.facebook-icon{
+    color: blue;
+}

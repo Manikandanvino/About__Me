@@ -1,0 +1,74 @@
+.skills{
+    background: url(../../src/Component/background.gif) center center/cover;
+    height: 100vh;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.95);
+    display: flex;
+    align-items: center;
+}
+.skills--image{
+    flex: 0.6;
+}
+.skills--text{
+    flex: 0.4;
+    text-align: left;
+    width: 500px;
+    color: white;
+    letter-spacing: 2px;
+}
+.skills--text > .bars {
+    width: 400px;
+    margin: 20px 0;
+}
+.css-eglki6-MuiLinearProgress-root{
+    background-color:rgba(255, 255, 255, 0.781) !important;
+    margin-top: 5px;
+}
+.bar1> span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(0,255,0);
+}
+.bar2> span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: red;
+}
+.bar3> span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: yellow;
+}
+.bar4> span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(225, 20, 147);
+}
+.bar5> span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(255,140,0);
+}
+.bar6> span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(0,128,128);
+}
+
+.skills--image > img {
+     width: 350px;
+     border-radius: 5px;
+     cursor: pointer;
+     align-items: center;
+}
+.icons{
+    width: 30px !important;
+    padding-right: 15px;
+    
+}
+.javaScriptIcon{
+    color: yellow;
+}
+.reactIcon{
+    color: skyblue;
+}
+.nodeIcon{
+    color: green;
+}
+.htmlIcon{
+    color: orange;
+}
+.cssIcon{
+    color:red ;
+}
+.gitIcon{
+    color: orangered;
+}
+
