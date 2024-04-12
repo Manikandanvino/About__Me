@@ -1,6 +1,6 @@
 import React from 'react'
 import {Element} from 'react-scroll'
-import Programing from 'C:/portpolio/portpolio/src/Component/coding.gif'
+import Programing from '../Component/coding.gif'
 import LinearProgress from '@mui/material/LinearProgress'
 import { FaReact } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";

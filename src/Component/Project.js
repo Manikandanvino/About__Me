@@ -1,9 +1,9 @@
 import React from 'react'
 import {Element} from 'react-scroll'
-import screenshot1 from 'C:/portpolio/portpolio/src/Component/Screenshot1.png'
-import screenshot2 from 'C:/portpolio/portpolio/src/Component/Screenshot2.png'
-import screenshot3 from 'C:/portpolio/portpolio/src/Component/Screenshot3.png'
-import screenshot4 from 'C:/portpolio/portpolio/src/Component/Screenshot4.png'
+import screenshot1 from '../Component/Screenshot1.png'
+import screenshot2 from '../Component/Screenshot2.png'
+import screenshot3 from '../Component/Screenshot3.png'
+import screenshot4 from '../Component/Screenshot4.png'
 import Myproject from './Myproject'
 const Project = () => {
     const clint_project = [
